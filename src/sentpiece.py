@@ -9,3 +9,5 @@ model_path = hf_hub_download(
 sp = spm.SentencePieceProcessor(model_file=model_path)
 def get_tokens(text: str):
     return sp.encode_as_pieces(text)
+
+

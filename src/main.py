@@ -1,6 +1,6 @@
 from pydantic import BaseModel 
 from fastapi import FastAPI
-from diac_tokenizer.sentpiece import get_tokens
+from sentpiece import get_tokens
 
 app = FastAPI()
 
