@@ -1,6 +1,6 @@
 # Diacritized Arabic Text Tokenizer
 
-A **SentencePiece Unigram tokenizer trained specifically for diacritized Arabic text**.
+A **SentencePiece tokenizer trained specifically for diacritized Arabic text**.
 
 The tokenizer was trained on **1 million sentences from the Tashkeela Arabic diacritized text corpus**, with a vocabulary size of 30,000 tokens.
 
